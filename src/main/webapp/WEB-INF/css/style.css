@@ -1,0 +1,577 @@
+body{
+    /*background-color: #F0A1C1;*/
+    background-color: #f7dae8;
+}
+
+.home-body{
+    /*background-color: #F8BBD7;*/
+    background-color: #eee;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    height: 100%;
+    padding-bottom: 20px;
+    width:80%;
+
+}
+#welcomebody{
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 750px) {
+    .home-body{
+    /*background-color: #F8BBD7;*/
+    background-color: #eee;
+    border-left: 0;
+    border-right: 0;
+    height: 100%;
+    padding-bottom: 20px;
+    width:100%;
+
+}
+.loginsection{
+    width: 90%;
+    border: 1px solid white;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.card-container{
+    width:60%;
+    margin:20px auto;
+} 
+.welcome-image{
+    height: 200px;
+    width: 200px;
+    margin-top:20px;
+    margin:auto;
+}
+#welcomebody{
+    padding-bottom: 0;
+}
+.welocmenote{
+    padding:20px;
+}
+    
+}
+
+
+.header{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.welcome{
+    padding:10px;
+    
+}
+
+.top-right-btn {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.menu{
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+#headtitle{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 5em;
+    /*-webkit-text-stroke: 1px black;*/
+    -webkit-text-fill-color: white;
+    text-shadow:
+        5px 5px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+#subtitle{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 1.2em;
+    color:black;
+    padding-right:80px;
+    text-align: justify-all;
+}
+.welcome-image{
+    height: 200px;
+    width: 200px;
+    margin-top:20px;
+}
+#frame{
+
+    margin-top: 100px;
+    padding:10px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.navbar{
+    margin-bottom: 0;
+}
+.page-footer{
+    heigh:100px;
+    background-color: #FF8FB2;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+.card {
+    background-color: white;
+    font-size: 1em;
+    overflow: hidden;
+    padding:5px;
+    border: none;
+    margin: 10px;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding:5px;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 239px;
+    height:239px;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+.meta {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a:hover {
+    color: rgba(0, 0, 0, .87);
+}
+
+
+
+.searchbox{
+    background-color: #EE3F91;
+    border-radius: 15px;
+    padding:5px 20px;
+    color:white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    width:29%;
+    min-width:300px;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+
+
+[type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.loginsection{
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin:100px auto;
+    padding: 40px;
+    background-color: white;
+}
+.loginsection h1{
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.userregsection{
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin:20px auto;
+    padding: 40px;
+    background-color: white;
+}
+.registrationsection{
+    min-width:450px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin:20px auto;
+    padding: 40px;
+    background-color: white;
+}
+.registrationsection h1{
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center;
+}
+.navbar{
+    background-color: #FF8FB2;
+
+}
+
+.navbar-brand{
+    color: #fff;
+}
+.navbar li a{
+    color: #fff;
+}
+.navbar li a:hover{
+    background-color: #EB059A;
+    font-size:1.2em;
+
+}
+.navbar li a:active{
+    background-color: #EB059A;
+}
+
+.regtitle{
+    font-family: 'Modak', cursive;
+    font-size: 5em;
+    text-align: center;
+}
+.sidenav,.profilesec{
+    max-height: 600px;
+    height: auto;
+    width: auto;
+    padding-left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.chatbody{
+    max-height: 557px;
+    height: auto;
+    width: auto;
+    padding-left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.viewtable{
+    width:100%;
+    margin:20px 0 0 0;
+    max-height: 600px;
+}
+.viewtable-chat{
+    width:100%;
+    margin:20px 0 0 0;
+    max-height: 600px;
+}
+.trbody{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.profilesec h1{
+    font-family: 'Mukta', sans-serif;
+    text-align: left;
+    padding:0 40px;
+    margin:0;
+}
+
+.profile{
+
+}
+.profile h1{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-weight: bolder;
+}
+hr{
+    height: 2px;
+    background-color: black;
+    margin:10px 0; 
+}
+.zeropad{
+    padding: 0px;
+}
+.zeromargin{
+    margin:0;
+}
+
+
+
+.titlepro{
+    background-color:#767171;
+    color:white;
+    padding:10px 0;
+    margin-top: 20px;
+    max-height:100px;
+}
+.subtype{
+    margin:0;
+    float: right;
+    font-weight: bolder;
+    color:#31B0D5;
+    font-size:15px;
+}
+.details h4{
+    font-weight: bolder;
+    font-family: 'Mukta', sans-serif;
+}
+.details{
+    padding: 10px;
+}
+
+/*profile page css*/
+
+.friend-img{
+    width: 80px;
+    height: 80px;
+    padding-left: 0;
+    margin-left: 0;
+}
+.friend-name{
+    display: inline-block;
+    float: right;
+    min-width:50%;
+}
+.friend-name h3{
+    font-weight: bolder;
+    color:#EB059A;
+    margin:5px;
+}
+.scrollinglist{
+    max-height:600px;
+    height:auto;
+    margin-bottom:0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.pro-tab td{
+    min-width:150px;
+    padding-top:5px;
+    text-align: justify;
+}
+
+
+/*p{
+        text-align: justify;
+        font-family: 'Mukta', sans-serif;
+}*/
+
+.det{
+    padding-left: 40px;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.profilecard{
+    width: 250px;
+    height: 400px;
+    margin:20px auto;
+}
+.profilecard img{
+    /*margin: auto;*/
+    width: 216px;
+    height: 228px;
+}
+
+.perimg{
+    margin: auto;
+    width:80%;
+    height: 228px;
+}
+.navtitle{
+    background-color:#767171;
+    width: 355px;
+    margin:0;
+    padding: 0;
+}
+.navtitle h1{
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: left;
+    padding:0 40px;
+    margin:0;
+    color:white;
+}
+.sectitle{
+    margin: auto;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #FF8FB2;
+    /*background-color: #4289FC;*/
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+.secfooter{
+    margin: auto;
+    padding: 10px 20px;
+    height:30px;
+    text-align: center;
+    background-color: #FF8FB2;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+
+.img-holder{
+    width: 180px;
+    height:180px;
+    padding: 5px;
+    border: 2px solid black;
+}
+.btn-holder{
+    width: 180px;
+    padding:10px 0;
+}
+.upimg{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.form-table{
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    /*border:1px solid black;*/
+    border-collapse: collapse;
+}
+tr td{
+    /*border:1px solid black;*/
+    padding: 10px;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+/*.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}*/
+.inputfile + label {
+    cursor: pointer; /* "hand" cursor */
+}
+
+#userform{
+
+}
+
+.chatmessage{
+    display: block;
+    width: 90%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+.card-container{
+    height: 226px;
+    width: 163px;
+}
+a:hover{
+  text-decoration: none;
+}
+.centerText{
+    text-align: center;
+}
+.not-body p{
+    margin-left: 10px;
+    font-weight:bolder;
+    font-size:10px;
+}
+.not-body ol{
+    margin-left:5px;
+    font-weight:bolder;
+    font-size:10px;
+}
+.not-body{
+    border-left:2px solid black;
+}
+.error{
+    width:40%;
+    margin:200px auto;
+    
+}
+.contact{
+    width: 60%;
+    margin:30px auto;
+    background-color: #FFF;
+    padding:60px;
+    border-radius:15px;
+}
+
+.cpimg{
+    width:100px;
+    height:100px;
+}
+
+
+
+@media screen and (max-width: 750px) {
+.loginsection{
+    width: 90%;
+    border: 1px solid white;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+}
+    
+}
+
